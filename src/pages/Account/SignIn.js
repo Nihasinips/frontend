@@ -17,7 +17,7 @@ const Login = () => {
     }
 
     try {
-      const response = await fetch('/coachlog', {
+      const response = await fetch('https://backend-solb.onrender.com/coachlog', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
