@@ -30,7 +30,7 @@ const Payment = () => {
         pincode,
       };
   
-      fetch('/delivery', {
+      fetch('https://backend-solb.onrender.com/delivery', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
